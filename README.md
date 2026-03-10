@@ -1,2 +1,4 @@
 # Problem-14
 The program reads email addresses from a file called emails.txt one by one. It keeps track of the emails it has already seen using a HashSet. When a new email is read, the program checks whether it has appeared before. If the email is new, it stores it in the set. If the email already exists, it means it is a duplicate, so the program adds it to another set that stores duplicate emails. After reading all the emails from the file, the program prints the list of duplicate email addresses.
+Time Complexity: O(n)
+Here, n is the number of email addresses in the file.
